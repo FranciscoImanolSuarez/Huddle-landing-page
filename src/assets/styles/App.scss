@@ -1,0 +1,13 @@
+@import './Vars.scss';
+@import './components/Body.scss';
+@import './components/Footer.scss';
+@import './Media.scss';
+
+
+h1 {
+	font-family: $fontFamily;
+}
+
+p {
+	opacity: 0.8;
+}

@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px) {
+	.flex {
+		flex-direction: column;
+		margin: 50px 0;
+	}
+
+	.flex > div:first-child {
+		flex: 1;
+		margin-right: 0;
+	}
+
+	.flex > div:last-child {
+		flex: 1;
+		margin-left: 0;
+		text-align: center;
+	}
+
+	.social {
+		justify-content: center;
+	}
+}
